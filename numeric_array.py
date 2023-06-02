@@ -1,5 +1,5 @@
 def multiple_of_three():
-    num = input('Enter the numbers separated by a space: ')
+    num = input('Enter numbers separated by a space: ')
     num_list = list(num.split(' '))
     count = 0
     for digit in num_list:
